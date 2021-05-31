@@ -244,6 +244,12 @@ Examples for data you might want to track additionally:
 - API Key ID
 - Message from the user describing what she changed
 
+## Telemetry Events
+
+### `[:ex_audit, :insert_event]`
+
+An event emitted before new version is inserted.
+
 ## Ecto versions
 
 For ecto 2.x, use `{:ex_audit, "~> 0.5"}`
