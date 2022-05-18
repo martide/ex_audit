@@ -55,7 +55,7 @@ defmodule ExAudit.Mixfile do
       {:excoveralls, "~> 0.7", only: :test},
       {:ex_doc, ">= 0.0.0", runtime: false, only: :dev},
       {:mix_test_watch, "~> 1.0", only: :dev, runtime: false},
-      {:telemetry, "~> 0.4"}
+      {:telemetry, "~> 1.1"}
     ]
   end
 end
